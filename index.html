@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert Page for Map</title>
+</head>
+<body>
+<form action="insert.php" method="post">
+    <table>
+        <tr>
+            <td><label for="lat">Latitudine</label></td>
+            <td><input type="text" id="lat" name="lat" required/></td>
+        </tr>
+        <tr>
+            <td><label for="long">Longitudine</label></td>
+            <td><input type="text" id="long" name="long" required/></td>
+        </tr>
+        <tr>
+            <td><label for="nome">Nome Località</label></td>
+            <td><input type="text" id="nome" name="nome" required/></td>
+        </tr>
+        <tr>
+            <td><label for="testa">Testa</label></td>
+            <td><input type="radio" id="testa" name="tipo" value="testa" checked/></td>
+        </tr>
+        <tr>
+            <td><label for="coda">Coda</label></td>
+            <td><input type="radio" id="coda" name="tipo" value="coda"/></td>
+        </tr>
+    </table>
+    <input type="submit" value="Inserisci nuova cordinata"/>
+</form>
+
+</body>
+</html>
